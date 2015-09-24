@@ -1,0 +1,12 @@
+train_net: "prototxt/triplet/triplet_train.prototxt"
+base_lr: 0.003333333
+lr_policy: "step"
+gamma: 0.333333
+stepsize: 50000
+display: 1
+max_iter: 800000
+momentum: 0.0
+weight_decay: 0.0005
+snapshot: 1000
+snapshot_prefix: "snapshots/"
+solver_mode:1
